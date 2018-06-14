@@ -9,13 +9,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
   </head>
   <body>
-        <div id="name"><p>Name: <input type="text" id="myText" name="user" value="bakery"></p></div>
+        <div id="name">
+            <p>Name: <input type="text" id="myText" name="user" value=""></p>
+            <p>Name: <input type="number" id="radius" name="user" value=""></p>
+        </div>
 
-		<button onclick="myFunction()">Try it</button>  
-		<button onclick="pageReload()">Reload page</button>
+		<button class="button-find">Try it</button>
         <p id="demo"></p>  
         <div id="map"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOMc5omMnKOkYBq7s9Hp74QsiYoY5zbjs&libraries=places&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC17j5Pt-ViVaBvSqfO1hDp3RxYGZ_Dtrc&libraries=places&callback=initMap" async defer></script>
 	<script src="index.js"></script>
 </body>
   </html>
