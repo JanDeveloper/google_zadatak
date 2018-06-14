@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place searches</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  </head>
+  <body>
+        <div id="name"><p>Name: <input type="text" id="myText" name="user" value="bakery"></p></div>
+
+		<button onclick="myFunction()">Try it</button>  
+		<button onclick="pageReload()">Reload page</button>
+        <p id="demo"></p>  
+        <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOMc5omMnKOkYBq7s9Hp74QsiYoY5zbjs&libraries=places&callback=initMap" async defer></script>
+	<script src="index.js"></script>
+</body>
+  </html>
