@@ -1,29 +1,45 @@
+html {
+  background-color: rgba(207, 206, 206, 0.651);
+}
 #map {
-    height: 600px;
-    width: 800px;
-    border-radius: 5px;
-    border-color: rgba(128, 128, 128, 0.651);
-    border-style: inset;
-    border-width: 1px;
-    margin: 5px;
-  }
-  
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  #pac-input {
-    background-color: #fff;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
-    margin-left: 12px;
-    padding: 0 11px 0 13px;
-    text-overflow: ellipsis;
-    width: 400px;
-  }
-
-  #pac-input:focus {
-    border-color: #4d90fe;
-  }
+  height: 600px;
+  width: 800px;
+  border-radius: 5px;
+  border-color: rgba(128, 128, 128, 0.651);
+  border-style: inset;
+  border-width: 1px;
+  margin: 5px;
+  float: right;
+}
+#result {
+  float: left;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#name {
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+body > div.ui-loader.ui-corner-all.ui-body-a.ui-loader-default{
+  display: none;
+}
+button {
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+ 
+}
+#myText {
+  width: 250px;
+  height: 25px;
+  font-size: 16px;
+}
+#radius {
+  width: 250px;
+  height: 25px;
+  font-size: 16px;
+}
+.warnval {
+  color: red;
+}
